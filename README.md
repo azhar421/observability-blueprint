@@ -63,14 +63,15 @@ observability-blueprint/
 ├── images/
 │
 └── examples/
-## **Quick Start**
+```
+## Quick Start
 
-## **Roadmap**
+## Roadmap
 
- **Documentation**
+## Documentation
 
 ## Contributing
 
 ## License
 
-Testing my readme: This is a **bold word** right here.
+
