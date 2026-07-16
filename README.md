@@ -1,37 +1,31 @@
 # Observability Blueprint
 
-Introduction
+## Introduction
 
-Features
+## Features
 
-Architecture
+## Architecture
 
+```text
                 +----------------------+
-                |     Sample App       |
+                |      Sample App      |
                 +----------+-----------+
                            |
                            |
               +------------+------------+
               |                         |
       OpenTelemetry              Prometheus
-          Collector                Scrape
+        Collector                  Scrape
               |                         |
       +-------+------+                  |
       |              |                  |
-    Loki          Tempo                 |
+    Loki           Tempo                |
       |              |                  |
       +-------+------+                  |
               |                         |
               +------------+------------+
                            |
                     Grafana Dashboard
-
-
-
-Technology Stack
-
-Repository Structure
-
 observability-blueprint/
 │
 ├── README.md
@@ -69,13 +63,12 @@ observability-blueprint/
 ├── images/
 │
 └── examples/
+## **Quick Start**
 
-Quick Start
+## **Roadmap**
 
-Roadmap
+## Documentation
 
-Documentation
+## Contributing
 
-Contributing
-
-License
+## License
