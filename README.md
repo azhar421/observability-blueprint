@@ -76,6 +76,7 @@ This repository helps you learn how to:
                     Grafana Dashboard
 ```
 ## Repository Structure
+```
 observability-blueprint/
 │
 ├── README.md
@@ -113,6 +114,7 @@ observability-blueprint/
 ├── images/
 │
 └── examples/
+```
 
 
 ## Quick Start
