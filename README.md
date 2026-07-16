@@ -1,2 +1,82 @@
-# observability-blueprint
-A production-inspired open-source observability platform demonstrating metrics, logs, traces, alerting, automation, and troubleshooting using Grafana, Prometheus, Loki, Tempo, OpenTelemetry, Docker, Kubernetes, Ansible, and Terraform.
+# Observability Blueprint
+
+Introduction
+
+Features
+
+Architecture
+
+                +----------------------+
+                |     Sample App       |
+                +----------+-----------+
+                           |
+                           |
+              +------------+------------+
+              |                         |
+      OpenTelemetry              Prometheus
+          Collector                Scrape
+              |                         |
+      +-------+------+                  |
+      |              |                  |
+    Loki          Tempo                 |
+      |              |                  |
+      +-------+------+                  |
+              |                         |
+              +------------+------------+
+                           |
+                    Grafana Dashboard
+
+
+
+Technology Stack
+
+Repository Structure
+
+observability-blueprint/
+│
+├── README.md
+├── LICENSE
+├── CONTRIBUTING.md
+├── CHANGELOG.md
+├── CODE_OF_CONDUCT.md
+│
+├── docs/
+│   ├── architecture/
+│   ├── installation/
+│   ├── monitoring/
+│   ├── logging/
+│   ├── tracing/
+│   ├── alerting/
+│   ├── troubleshooting/
+│   └── best-practices/
+│
+├── docker-compose/
+│
+├── kubernetes/
+│
+├── helm/
+│
+├── ansible/
+│
+├── terraform/
+│
+├── dashboards/
+│
+├── alerts/
+│
+├── scripts/
+│
+├── images/
+│
+└── examples/
+
+
+Quick Start
+
+Roadmap
+
+Documentation
+
+Contributing
+
+License
